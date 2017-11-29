@@ -63,6 +63,7 @@ post(c.tree2, file = "tree2.ps", title = "MOOC") #This creates a pdf image of th
 
 ```
 
+
 ```{r}
 M2$predict1 <- predict(c.tree, M2, type = "class")
 
