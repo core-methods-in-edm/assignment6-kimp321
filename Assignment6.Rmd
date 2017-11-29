@@ -16,7 +16,7 @@ assignment (numeric) - A student's average grade for the course assignments
 #Packages
 ```{r}
 install.packages("rpart")
-library('rpart')
+library("rpart")
 ```
 
 #Data
@@ -28,7 +28,6 @@ M2 <- read.csv('MOOC2.csv')
 
 ```
 
-#c.tree <- rpart(certified ~ forum.posts + grade + assignment, method="class", data=M1, control=rpart.control(minsplit=70,minbucket=23, cp=0))
 
 #Decision tree
 ```{r}
